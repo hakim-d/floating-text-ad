@@ -7,16 +7,12 @@ Floating Text Ad: This Ad Unit will pop up from the browser bottom and stick to 
 
 Usage:
 
-<div class="highlight highlight-html">
-<pre>
-<code>
-	&lt;script type=&quot;text/javascript&quot; src=&quot;floating-text-ad.js&quot;&gt;&lt;/script&gt;
-	&lt;script&gt;
-		floatingTextAd.setImage(180, 135, &quot;http://hakim.ma/labs/floating-text-ad/thumb.jpg&quot;);
-		floatingTextAd.setText(&quot;Flying Dodo&quot;, &quot;Get as far as you can before you run out of fuel.&quot;);
-		floatingTextAd.setClickUrl(&quot;http://www.doubleduck.co/games/flying-dodo/&quot;, &quot;_blank&quot;);
+```javascript
+	<script type="text/javascript" src="floating-text-ad.js"></script>
+	<script type="text/javascript">
+		floatingTextAd.setImage(180, 135, "http://hakim.ma/labs/floating-text-ad/thumb.jpg");
+		floatingTextAd.setText("Flying Dodo", "Get as far as you can before you run out of fuel.");
+		floatingTextAd.setClickUrl("http://www.doubleduck.co/games/flying-dodo/", "_blank");
 		floatingTextAd.init();
-	&lt;/script&gt;
-</code>
-</pre>
-</div>
+	</script>
+```
