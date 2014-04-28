@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Demo - Floating Text Ad</title>
+<style>
+	body{margin:0;padding:0;border: 0;font-size: 100%;vertical-align: baseline;border-image: initial;color:#222;font-family:arial;overflow-x: hidden;}
+	a{text-decoration: none;color:#222;}
+	a:hover{text-decoration: underline;}
+</style>
+
+</head>
+<body>
+
+	<div style="width:960px;margin:0 auto;">
+		<div style="height:250px;background:#2C2C2C;margin-bottom:30px;"></div>
+		<div style="height:768px;width:260px;float:left;margin-right:30px;background:#BD5C03;"></div>
+		<div style="height:768px;width:260px;float:left;margin-right:30px;background:#F1B802;"></div>
+		<div style="height:768px;width:380px;float:left;margin-right:0px;background:#CECCC5;"></div>
+		<div style="clear:both;"></div>
+		<div style="height:150px;background:#675D62;margin-top:30px;"></div>
+	</div>
+
+	<div style="position: fixed;bottom: 15px;left: 10px;">
+		<p style="font-size: 24px; font-weight:bold; margin:0;">Demo</p>
+		<p style="font-size: 24px; margin:0 0 5px;">Floating Text Ad</p>
+		<p style="font-size: 11px; margin:0; padding:0;">&copy; <a href="http://hakim.ma" target="_blank">Hakim Dahoune</a></p>
+  	</div>
+  	
+	<script type="text/javascript" src="floating-text-ad.js"></script>
+	<script>
+		floatingTextAd.setImage(180, 135, "http://hakim.ma/labs/floating-text-ad/thumb.jpg");
+		floatingTextAd.setText("Flying Dodo", "Get as far as you can before you run out of fuel. Avoid the obstacles and watch out for the Dodo's nemesis", 15);
+		floatingTextAd.setClickUrl("http://www.doubleduck.co/games/flying-dodo/", "_blank");
+		floatingTextAd.init();
+	</script>
+
+</body>
+</html>
