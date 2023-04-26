@@ -7,7 +7,7 @@ An Ad Unit for beautifully displaying Text Ads, introduce an image url, a title 
 
 <h3>Usage</h3>
 
-```javascript
+``` javascript
 	// image width, image height, image url
 	floatingTextAd.setImage(180, 135, "http://hakim.ma/labs/floating-text-ad/thumb.jpg");
 	// title, description
@@ -20,12 +20,12 @@ An Ad Unit for beautifully displaying Text Ads, introduce an image url, a title 
 
 <h3>Options</h3>
 <p>Show the Ad after a time delay (milliseconds) (default: "1000")</p>
-```javascript
+``` javascript
 	// 2 seconds delay
 	floatingTextAd.init(2000);
 ```
 <p>Description text length</p>
-```javascript
+``` javascript
 	// description length is 15 words
 	floatingTextAd.setText("Flying Dodo", "Get as far as you can before you run out of fuel.", 15);
 ```
@@ -34,19 +34,19 @@ An Ad Unit for beautifully displaying Text Ads, introduce an image url, a title 
 	floatingTextAd.setColor("#808000");
 ```
 <p>Change the call-to-action button text (default: "Play Now")</p>
-```javascript
+``` javascript
 	// "Watch Now", "Jouez", "Spielen", "إلعب الآن"…
 	floatingTextAd.setCTA("Watch Now");
 ```
 <p>Label text (default: "HOT!")</p>
-```javascript
+``` javascript
 	// "NEW!", "SALE"…
 	floatingTextAd.setLabel("NEW!");
 ```
 <p>Frequency capping (hours) (Default: "None")<br />
 Set a number of hours this Ad Unit should not appear again when the user hits the Close button.
 </p>
-```javascript
+``` javascript
 	// The Ad shows once per 12 hours
 	floatingTextAd.setCapping(12);
 ```
